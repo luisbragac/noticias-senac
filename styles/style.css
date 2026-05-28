@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #F4F4F4;
+}
+
+nav{
+    background-color: #111;
+    padding: 15px 40px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2 ease;
+}
+
+nav a:hover{
+    background-color: #C41230;
+    border-radius: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 4px;
+    list-style: none;
+}
+
+header{
+    background-color: #C41230;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header h1{
+    font-family: 'Merriweather', Georgia, serif;
+}
+
+header h1 span {
+    color: rgba(255,255,255,0.75);
+    font-weight: 400;
+    font-family: 'Merriweather', Georgia, serif;
+    
+}
+
+header form{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+header form label{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+}
+
+header form input{
+    border-radius: 10px 0 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    margin: 0px;
+    border-right: none;
+    outline: none;
+    
+}
+
+header form button img{
+    width: 22px;
+}
+
+header form button{
+    background-color: white;
+    border: 2px solid #ccc;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
