@@ -101,9 +101,11 @@ section{
 
 .card-principal{
     background-color: white;
+    display: flex;
+    gap: 20px;
     padding: 10px 20px;
-    margin-top: 10px;
-    width: 50%;
+    margin: 10px 0px 10px 0px;
+    width: 70%;
     border-radius: 15px;
 }
 
@@ -168,6 +170,36 @@ section{
     color: #555;
     font-weight: normal;
     margin-bottom: 8px;
+}
+
+aside{
+    margin: 10px;
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    height: 20%;
+    gap: 20px;
+}
+
+aside h2{
+    color: #C41230;
+    font-size: 30px;
+}
+
+aside a{
+    text-decoration: none;
+    color: #111;
+    text-align: center;
+    padding: 10px;
+}
+
+aside ul{
+    list-style: none;
+    border-left: 4px solid #C41230;
+}
+
+aside li{
+    margin-top: 5px;
 }
 
 footer{
