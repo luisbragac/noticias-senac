@@ -169,3 +169,48 @@ section{
     font-weight: normal;
     margin-bottom: 8px;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #111;
+    color: white;
+    padding: 40px 40px;
+}
+
+footer img{
+    width: 20%;
+}
+
+footer a img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.links-sociais ul{
+    display: flex;
+    list-style: none;
+    width: 150px;
+}
+
+.links-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo-senac{
+    width: 100%;
+}
+
+footer address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+footer address img{
+    width: 4%;
+    margin-right: 5px;
+}
