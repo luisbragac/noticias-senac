@@ -44,6 +44,19 @@
     padding: 0px 20px;
 }
 
+.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-color: #A60D0D !important;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
 main{
     display: flex;
     justify-content: center;
