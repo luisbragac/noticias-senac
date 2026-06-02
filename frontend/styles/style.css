@@ -53,6 +53,10 @@
     color: white;
 }
 
+.navbar-brand:hover{
+    color: white;
+}
+
 .nav-link{
     color: white;
 }
