@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-color: #A60D0D !important;
+    width: 100%;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 50px;
+}
