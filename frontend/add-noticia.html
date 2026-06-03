@@ -37,53 +37,61 @@
       <article>
         <form>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
+            <label for="titulo" class="form-label"
               >Título</label
             >
             <input
               type="text"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="titulo"
+              name="titulo"
+              required
             />
 
-            <label for="exampleFormControlInput1" class="form-label"
+            <label for="subtitulo" class="form-label"
               >Subtítulo</label
             >
             <input
               type="text"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="subtitulo"
+              name="subtitulo"
+              required
             />
 
-            <label for="formFile" class="form-label">Imagem Principal</label>
-            <input class="form-control" type="file" id="formFile" />
+            <label for="imagem" class="form-label">Imagem Principal</label>
+            <input class="form-control" type="file" id="imagem" name="imagem" required  />
 
-            <label for="exampleFormControlInput1" class="form-label"
+            <label for="legenda" class="form-label"
               >Legenda</label
             >
             <input
               type="text"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="legenda"
+              name="legenda"
+              required
             />
 
-            <label for="exampleFormControlTextarea1" class="form-label"
+            <label for="conteudo" class="form-label"
               >Conteúdo</label
             >
             <textarea
               class="form-control"
-              id="exampleFormControlTextarea1"
+              id="conteudo"
+              name="conteudo"
+              required
               rows="3"
             ></textarea>
 
-            <label for="inputState" class="form-label">Categoria</label>
-            <select id="inputState" class="form-select">
+            <label for="categoria" class="form-label">Categoria</label>
+            <select id="categoria" class="form-select" required name="categoria">
               <option selected>Escolha...</option>
               <option>...</option>
             </select>
           </div>
 
-          <button class="btn btn-primary" type="submit">Entrar</button>
+          <button class="btn btn-primary" type="submit" aria-label="Adicionar Notícia">Adicionar</button>
         </form>
       </article>
     </main>
