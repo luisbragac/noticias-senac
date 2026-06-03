@@ -25,28 +25,31 @@
       <article>
         <form>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
+            <label for="email" class="form-label"
               >Email</label
             >
             <input
               type="email"
               class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
+              id="email"
+              name="email"
+              required
+              placeholder="exemplo@exemplo.com"
             />
             <div class="col-auto">
-              <label for="inputPassword6" class="col-form-label">Senha</label>
+              <label for="senha" class="col-form-label">Senha</label>
             </div>
             <div class="col-auto">
               <input
                 type="password"
-                id="inputPassword6"
+                id="senha"
+                name="senha"
+                required
                 class="form-control"
-                aria-describedby="passwordHelpInline"
               />
             </div>
           </div>
-          <button class="btn btn-primary" type="submit">Entrar</button>
+          <button class="btn btn-primary" type="submit" aria-label="Entrar">Entrar</button>
         </form>
       </article>
     </main>
