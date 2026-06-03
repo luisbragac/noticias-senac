@@ -16,3 +16,26 @@
 .navbar-brand:hover{
     color: white;
 }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 22px;
+}
