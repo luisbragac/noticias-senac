@@ -3,6 +3,19 @@
     margin: 0px;
 }
 
+.nav-link{
+    font-size: 24px;
+    margin-left: 20px;
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+
 .navbar.navbar-expand-lg.bg-body-tertiary{
     background-color: #A60D0D !important;
     width: 100%;
