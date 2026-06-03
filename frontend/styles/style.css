@@ -115,6 +115,16 @@ aside a:hover{
     color: white;
 }
 
+.card-title a{
+    color: black;
+    text-decoration: none;
+}
+
+.card-title a:hover{
+    color: #A60D0D;
+    text-decoration: underline;
+}
+
 .imagem-noticia{
     display: flex;
     justify-content: center;
@@ -128,3 +138,5 @@ aside a:hover{
     flex: 1;
     height: 450px;
 };
+
+
