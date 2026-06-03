@@ -13,6 +13,10 @@
     font-size: 50px;
 }
 
+.navbar-brand:hover{
+    color: white;
+}
+
 main{
     display: flex;
     align-items: center;
@@ -24,11 +28,10 @@ article{
     align-items: center;
     justify-content: center;
     width: 50%;
-    margin-top: 20px;
+    margin: 20px;
     background-color: #A60D0D;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
-    height: 350px;
 }
 
 form{
@@ -48,6 +51,7 @@ form{
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    gap: 5px;
 }
 
 .col-auto{
