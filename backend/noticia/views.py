@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from noticia.serializers import NoticiaSerializer
+from noticia.models import Noticia
 
-# Create your views here.
+class NoticiaViewSet(viewsets.ModelViewSet):
+    queryset = Noticia.objects.all()
+    serializer_class = NoticiaSerializer
