@@ -11,14 +11,14 @@ class Noticia(models.Model):
     subtitulo = models.CharField(max_length=255)
     conteudo = models.TextField()
     ativa = models.BooleanField()
-    data_publicao = models.DateField(auto_now_add=True)
+    data_publicacao = models.DateField(auto_now_add=True)
+    imagem = models.ImageField(upload_to='noticias/', blank=True, null=True)
+    legenda = models.CharField(max_length=255, blank=True, null=True)
 
     categoria = models.ForeignKey(
-        Categoria, 
-        on_delete=models.SET_NULL, 
-        blank= True, 
-        null= True, 
+        Categoria,
+        on_delete=models.SET_NULL,
+        blank=True,
+        null=True,
         related_name='noticias'
-        )
-
-
+    )
